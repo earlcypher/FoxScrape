@@ -3,7 +3,7 @@
     - Created by Lei
 
 ## Table of Contents
-    - [Project FoxyScrape](#project)
+    - [Project FoxyScrape](#project_foxscrape)
     - [Table of Contents](#table)
     - [Installation](#installation)
     - [Termux Installation](#termux)
