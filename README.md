@@ -2,8 +2,6 @@
 
 A Python-based web scraping tool designed to extract proxy information from websites.
 
-### Created by Lei
-
 ## Table of Contents
 
 · [Installation](#installation)
@@ -77,3 +75,5 @@ python3 foxscrape.py
 # Purpose
 
 This script is designed to help users scrape proxy information from various websites, providing an easy way to gather proxy data for various applications.
+
+## Created by Lei
