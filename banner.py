@@ -29,4 +29,4 @@ def banner():
     e = "[*] Created by Lei [*]"
 
     print(f"\n{BOLD}{ITALIC}{LIGHT_BLUE}{i}")
-    print(f"{LIGHT_BLUE}{e}\n"
+    print(f"{LIGHT_BLUE}{e}\n")
