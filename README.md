@@ -1,56 +1,79 @@
-# Project FoxScrape
-    - FoxScrape v1.0
-    - Created by Lei
+FoxyScrape v1.0
 
-## Table of Contents
-    - [Project FoxyScrape](#project_foxscrape)
-    - [Table of Contents](#table)
-    - [Installation](#installation)
-    - [Termux Installation](#termux)
-    - [Linux Installation](#linux)
-    - [Conclusion](#conclusion)
+A Python-based web scraping tool designed to extract proxy information from websites.
 
-## Installation
-    Must having a latest version of Python or Python3.
-    
-    For the linux application it depends on you, but make sure it's compatible
-    with Python
-    
-    For the instance we have a two system operation option to use Pc/Android:
-    
-    - [Termux Installation](#termux)
-    - [Any Debian based Linux Installation](#linux)
+Created by Lei
 
-## Termux Installation
+Table of Contents
 
-    - Update & Upgrade the Termux Packages
-    ```
-    pkg update && pkg upgrade -y
-    ```
-    - Installing dependencies 
-    ```
-    pkg install python git python-requests python-pandas python-wheel -y && pip
-    install threading
-    ```
-    - Cloning repository from FoxScrape repository
-    ```
-    git clone 
-    ```
-    - Run the script
-    ```
-    cd FoxyScrape && python foxscrape.py
-    ```
-    
-## Linux Installation
-    - Installing dependencies
-    ```
-    apt-get update && apt-get upgrade -y && apt install python3 git
-    python-pandas python-requests python-wheel && pip install threading
-    ```
-    - Run the script
-    ```
-    cd FoxyScrape && python3 foxyscrape.python3
-    ```
-    
-# Conclusion 
-    Purpose of this script is to make user help to scrap a proxy from a web.
+· Installation
+· Termux Installation
+· Linux Installation
+· Usage
+· Purpose
+
+Installation
+
+Ensure you have the latest version of Python or Python3 installed. This tool is compatible with both PC and Android systems.
+
+Choose your installation method:
+
+· Termux (Android)
+· Linux Systems
+
+Termux Installation
+
+1. Update & Upgrade Termux Packages
+   ```bash
+   pkg update && pkg upgrade -y
+   ```
+2. Install Dependencies
+   ```bash
+   pkg install python git python-requests python-pandas python-wheel -y
+   pip install threading
+   ```
+3. Clone Repository
+   ```bash
+   git clone https://github.com/yourusername/FoxyScrape.git
+   ```
+4. Run the Script
+   ```bash
+   cd FoxyScrape
+   python foxscrape.py
+   ```
+
+Linux Installation
+
+1. Install Dependencies
+   ```bash
+   sudo apt-get update && sudo apt-get upgrade -y
+   sudo apt install python3 git python3-pandas python3-requests python3-wheel
+   pip install threading
+   ```
+2. Clone Repository
+   ```bash
+   git clone https://github.com/yourusername/FoxyScrape.git
+   ```
+3. Run the Script
+   ```bash
+   cd FoxyScrape
+   python3 foxscrape.py
+   ```
+
+Usage
+
+After installation, navigate to the FoxyScrape directory and execute the script:
+
+```bash
+python foxscrape.py
+```
+
+or
+
+```bash
+python3 foxscrape.py
+```
+
+Purpose
+
+This script is designed to help users scrape proxy information from various websites, providing an easy way to gather proxy data for various applications.
