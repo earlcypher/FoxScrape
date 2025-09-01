@@ -1,10 +1,10 @@
-FoxyScrape v1.0
+# FoxyScrape v1.0
 
 A Python-based web scraping tool designed to extract proxy information from websites.
 
-Created by Lei
+### Created by Lei
 
-Table of Contents
+## Table of Contents
 
 · Installation
 · Termux Installation
@@ -12,16 +12,16 @@ Table of Contents
 · Usage
 · Purpose
 
-Installation
+## Installation
 
 Ensure you have the latest version of Python or Python3 installed. This tool is compatible with both PC and Android systems.
 
-Choose your installation method:
+### Choose your installation method:
 
 · Termux (Android)
 · Linux Systems
 
-Termux Installation
+## Termux Installation
 
 1. Update & Upgrade Termux Packages
    ```bash
@@ -42,7 +42,7 @@ Termux Installation
    python foxscrape.py
    ```
 
-Linux Installation
+## Linux Installation
 
 1. Install Dependencies
    ```bash
@@ -60,7 +60,7 @@ Linux Installation
    python3 foxscrape.py
    ```
 
-Usage
+## Usage
 
 After installation, navigate to the FoxyScrape directory and execute the script:
 
@@ -74,6 +74,6 @@ or
 python3 foxscrape.py
 ```
 
-Purpose
+# Purpose
 
 This script is designed to help users scrape proxy information from various websites, providing an easy way to gather proxy data for various applications.
