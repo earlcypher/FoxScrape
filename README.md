@@ -6,13 +6,13 @@ A Python-based web scraping tool designed to extract proxy information from webs
 
 ## Table of Contents
 
-· Installation
+· [Installation](#install)
 · Termux Installation
 · Linux Installation
 · Usage
 · Purpose
 
-## Installation
+## Installation {#install}
 
 Ensure you have the latest version of Python or Python3 installed. This tool is compatible with both PC and Android systems.
 
