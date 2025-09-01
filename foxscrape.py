@@ -95,4 +95,4 @@ if os.path.exists("tempprox.txt") and os.path.exists("temp.txt"):
 print(f"{GREEN}[✓]Cleaning Completed")
 
 #Finish
-print(f"{GREEN}[✓]Done"\n)
+print(f"{GREEN}[✓]Done\n")
