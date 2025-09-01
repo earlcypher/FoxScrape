@@ -7,12 +7,12 @@ A Python-based web scraping tool designed to extract proxy information from webs
 ## Table of Contents
 
 · [Installation](#install)
-· Termux Installation
-· Linux Installation
-· Usage
-· Purpose
+· [Termux Installation](#termux)
+· [Linux Installation](#linux)
+· [Usage](#usage)
+· [Purpose](#purpose)
 
-## Installation {install}
+## Installation {#install}
 
 Ensure you have the latest version of Python or Python3 installed. This tool is compatible with both PC and Android systems.
 
@@ -21,7 +21,7 @@ Ensure you have the latest version of Python or Python3 installed. This tool is 
 · Termux (Android)
 · Linux Systems
 
-## Termux Installation
+## Termux Installation {#termux}
 
 1. Update & Upgrade Termux Packages
    ```bash
@@ -42,7 +42,7 @@ Ensure you have the latest version of Python or Python3 installed. This tool is 
    python foxscrape.py
    ```
 
-## Linux Installation
+## Linux Installation {#linux}
 
 1. Install Dependencies
    ```bash
@@ -60,7 +60,7 @@ Ensure you have the latest version of Python or Python3 installed. This tool is 
    python3 foxscrape.py
    ```
 
-## Usage
+## Usage {#usage}
 
 After installation, navigate to the FoxyScrape directory and execute the script:
 
@@ -74,6 +74,6 @@ or
 python3 foxscrape.py
 ```
 
-# Purpose
+# Purpose {#purpose}
 
 This script is designed to help users scrape proxy information from various websites, providing an easy way to gather proxy data for various applications.
